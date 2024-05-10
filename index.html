@@ -8,6 +8,8 @@
   
   <title>Frontend Mentor | Social links profile</title>
 
+  <link rel="stylesheet" href="./styles/style.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,20 +17,29 @@
   </style>
 </head>
 <body>
+  <div class="container">
+    <section id="profileImg">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="prfImg" class="prfImg">
+    </section>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
+    <section id="nameOfUser">
+      <h2>Jessica Randall</h2>
+      <h4>London, United Kingdom</h4>
+      <p>"Front-end developer and avid reader."</p>
+    </section>
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+    <section id="socialLink">
+      <div class="socialWebsite">GitHub</div>
+      <div class="socialWebsite">Frontend Mentor</div>
+      <div class="socialWebsite">LinkedIn</div>
+      <div class="socialWebsite">Twitter</div>
+      <div class="socialWebsite">Instagram</div>
+    </section>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/dashboard">Ravichandran Kirthigesan</a>.
   </div>
 </body>
 </html>
